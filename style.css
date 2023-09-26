@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
     font-family: "Open Sans", sans-serif;
-    color: #494a87;
+    color: #5a656e;
   }
   
   a {
@@ -318,16 +318,18 @@ body {
 }
 
   
-
-  #shay {
+  /*--------------------------------------------------------------
+  # Gemma Section
+  --------------------------------------------------------------*/
+  #gemma {
     width: 100%;
     height: 75vh;
-    background: url("./images/rainbow.jpeg") top center;
+    background: url("./images/DancingCats.jpg") top center;
     background-size: cover;
     padding: 0 15px;
   }
   
-  #shay h1 {
+  #gemma h1 {
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 700;
@@ -335,39 +337,39 @@ body {
     color: #fff;
   }
   
-  #shay h2 {
-    color: rgb(19, 12, 12);
+  #gemma h2 {
+    color: #eee;
     margin-bottom: 10px;
     font-size: 24px;
     font-weight: 300;
     font-family: "Poppins", sans-serif;
   }
   
-  #shay .btn-get-started {
+  #gemma .btn-get-started {
     font-size: 64px;
     transition: 0.5s;
     color: #fff;
     height: 60px;
   }
   
-  #shay .btn-get-started:hover {
+  #gemma .btn-get-started:hover {
     padding-top: 10px;
     color: #3830d4;
   }
   
   @media (min-width: 1024px) {
-    #shay {
+    #gemma {
       background-attachment: fixed;
     }
   }
   
   @media (max-width: 768px) {
-    #shay h1 {
+    #gemma h1 {
       font-size: 28px;
       line-height: 36px;
     }
   
-    #shay h2 {
+    #gemma h2 {
       font-size: 18px;
       line-height: 24px;
       margin-bottom: 30px;
@@ -381,7 +383,7 @@ body {
   #header2 {
     width: 100%;
     height: 75vh;
-    background: url("./images/rainbow.jpeg") top center;
+    background: url("./images/FlyingCat.jpg") top center;
     background-size: cover;
     padding: 0 15px;
   }
@@ -583,7 +585,7 @@ body {
   }
   
   .about .image {
-    background: url("./images/kenobiface.jpeg") center center no-repeat;
+    background: url("./images/gemma.jpg") center center no-repeat;
     background-size: cover;
     min-height: 400px;
   }
@@ -610,7 +612,7 @@ body {
   /* #portfolio {
     width: 100%;
     height: 75vh;
-    background: url("./images/rainbow.jpeg") top center;
+    background: url("./images/FlyingCat.jpg") top center;
     background-size: cover;
     padding: 0 15px;
   } */
@@ -645,7 +647,7 @@ body {
   
   .portfolio #portfolio-flters li:hover,
   .portfolio #portfolio-flters li.filter-active {
-    color: #5e30d4;
+    color: #d43076;
   }
   
   .portfolio #portfolio-flters li:last-child {
@@ -902,3 +904,16 @@ body {
     font-size: 13px;
   }
 Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
